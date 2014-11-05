@@ -1,605 +1,563 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Provo Node.js Ninjas Meetup Group</title>
-
-  <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link href="css/landing-page.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Provo Node.js Ninjas Meetup Group</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-      </head>
-
-      <body>
-<!--
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-      </nav> -->
-
-      <!-- Header -->
-      <div class="intro-header">
-
-        <div class="container">
-
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="intro-message">
-                <img class="intro-logo" src="img/badge-pnn-v2-white.png" alt="Provo NodeJS Ninjas" />
-                <hr class="intro-divider">
-                <ul class="list-inline intro-social-buttons">
-                  <li>
-                    <a href="http://www.meetup.com/Node-Ninjas/" class="btn btn-default btn-lg">
-                      <img src="img/meetup.png" />
-                      <span class="network-name">&nbsp;Meetup</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/Utah-Node-Ninjas" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                  </li><br/><br/>
-                  <li>
-                    <a href="#map" class="btn btn-default btn-lg"><i class="fa fa-map-marker fa-fw"></i> <span class="network-name">Map</span></a>
-                  </li>
-                  <li>
-                    <a href="#presentations" class="btn btn-default btn-lg"><i class="fa fa-calendar fa-fw"></i> <span class="network-name">Presentations</span></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <!-- /.container -->
-
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
       </div>
-      <!-- /.intro-header -->
-
-      <!-- Page Content -->
-
-      <div class="content-section-a">
-
-        <div class="container">
-
-          <div class="row">
-            <div class="col-lg-5 col-sm-6">
-              <hr class="section-heading-spacer">
-              <div class="clearfix"></div>
-              <h2 class="section-heading">Purpose</h2>
-              <p class="lead">
-                This meetup is focused on spreading knowledge and best practices
-                for the use of Node.js. Node is exploding with a massive and
-                dedicated developer community, and is moving into enterprise
-                stacks. There is an incredible talent pool out there who can
-                bring their experience back to the community, and our goal is
-                to get them into the group to speak. Topics of discussion are
-                listed below. If you want to present one of these, please let
-                one of us know.
-              </p>
-            </div>
-            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-              <img class="img-responsive" src="img/Nodejs-small.png" alt="">
-            </div>
-          </div>
-
-        </div>
-        <!-- /.container -->
-
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
       </div>
-      <!-- /.content-section-a -->
-
-      <div id="presentations" class="content-section-b">
-
-        <div class="container">
-
-          <div class="row">
-            <div class="col-lg-12">
-              <hr class="section-heading-spacer">
-              <div class="clearfix"></div>
-              <h2 class="section-heading">Presentation Topics</h2>
-              <p class="lead">
-                Here's a a tentative list of topics we want to cover
-                in the meetups. All of our presentations are done by
-                members of the group, volunteering their time to help us
-                all learn. If you would like to give a brief presentation
-                (15-30 minutes) on one of these or any other topic related
-                to Node.js, please email one of the group organizers listed
-                on Meetup.
-              </p>
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th>Topic</th>
-                    <th>Presenter(s)</th>
-                    <th>Date of Presentation</th>
-                    <th>Code Base</th>
-                  </tr>
-                </thead>
-                <tbody>
+    </div>
+  </nav> -->
+  <!-- Header -->
+  <div class="intro-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="intro-message">
+            <img class="intro-logo" src="img/badge-pnn-v2-white.png" alt="Provo NodeJS Ninjas" />
+            <hr class="intro-divider">
+            <ul class="list-inline intro-social-buttons">
+              <li>
+                <a href="http://www.meetup.com/Node-Ninjas/" class="btn btn-default btn-lg">
+                  <img src="img/meetup.png" />
+                  <span class="network-name">&nbsp;Meetup</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Utah-Node-Ninjas" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+              </li><br/><br/>
+              <li>
+                <a href="#map" class="btn btn-default btn-lg"><i class="fa fa-map-marker fa-fw"></i> <span class="network-name">Map</span></a>
+              </li>
+              <li>
+                <a href="#presentations" class="btn btn-default btn-lg"><i class="fa fa-calendar fa-fw"></i> <span class="network-name">Presentations</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.intro-header -->
+  <!-- Page Content -->
+  <div class="content-section-a">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-sm-6">
+          <hr class="section-heading-spacer">
+          <div class="clearfix"></div>
+          <div id="purpose-content"class="dynamic-content"></div>
+          <!--           <h2 class="section-heading">Purpose</h2>
+          <p class="lead">
+          This meetup is focused on spreading knowledge and best practices
+          for the use of Node.js. Node is exploding with a massive and
+          dedicated developer community, and is moving into enterprise
+          stacks. There is an incredible talent pool out there who can
+          bring their experience back to the community, and our goal is
+          to get them into the group to speak. Topics of discussion are
+          listed below. If you want to present one of these, please let
+          one of us know.
+          </p> -->
+        </div>
+        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+          <img class="img-responsive" src="img/Nodejs-small.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.content-section-a -->
+  <div id="presentations" class="content-section-b">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <hr class="section-heading-spacer">
+          <div class="clearfix"></div>
+          <div id="presentation-content"class="dynamic-content"></div>
+          <!-- <h2 class="section-heading">Presentation Topics</h2>
+          <p class="lead">
+          Here's a a tentative list of topics we want to cover
+          in the meetups. All of our presentations are done by
+          members of the group, volunteering their time to help us
+          all learn. If you would like to give a brief presentation
+          (15-30 minutes) on one of these or any other topic related
+          to Node.js, please email one of the group organizers listed
+          on Meetup.
+          </p> -->
+          <!--<table class="table">
+            <thead>
+              <tr>
+                <th>Topic</th>
+                <th>Presenter(s)</th>
+                <th>Date of Presentation</th>
+                <th>Code Base</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
                 <tr>
-                 <tr>
-                    <th colspan="4">
-                      <h4>Beginner Concepts</h4>
-                    </th>
-                  </tr>
-                  <tr>
-                    <td>Core Node.js</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>NPM and modules</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>I/O</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Interfacing with other languages</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Event Loop</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Non-blocking code</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-
-
-                    <th colspan="4">
-                      <h4>General Topics</h4>
-                    </th>
-                  </tr>
-                  <tr class="past">
-                    <td>PhantomJS => CasperJS => SpookyJS</td>
-                    <td>Eric Rea and Dennis Steele</td>
-                    <td><a href="http://www.meetup.com/Node-Ninjas/events/200378012/">08/13/2014</a></td>
-                    <td>None</td>
-                  </tr>
-                  <tr>
-                    <td>ES6</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Authentication</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Semantic Versioning</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>RSS feeds</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Emailing</td>
-                    <td>Joey Cozza</td>
-                    <td>09/10/2014</td>
-                    <td><a href="https://github.com/Utah-Node-Ninjas/emailing-10Sep2014">Utah-Node-Ninjas/emailing-10Sep2014</a></td>
-                  </tr>
-                  <tr>
-                    <td>Logging/debugging</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>SocketIO</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-
-                  <tr>
-                    <th colspan="4">
-                      <h4>Frameworks</h4>
-                    </th>
-                  </tr>
-                  <tr class="past">
-                    <td>Express / Koa</td>
-                    <td>Derek Argueta</td>
-                    <td><a href="http://www.meetup.com/Node-Ninjas/events/198171172/">08/06/2014</a></td>
-                    <td>None</td>
-                  </tr>
-                  <tr>
-                    <td>Meteor</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Derby</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Hapi</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Sail</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-
-                  <tr>
-                    <th colspan="4">
-                      <h4>Blogging</h4>
-                    </th>
-                  </tr>
-                  <tr>
-                    <td>Ghost</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>PencilBlue</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Poet</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Hexo</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <th colspan="4">
-                      <h4>Deployment</h4>
-                    </th>
-                  </tr>
-                  <tr class="past">
-                    <td>Passenger</td>
-                    <td>David Chubbs</td>
-                    <td><a href="http://www.meetup.com/Node-Ninjas/events/201892112/">08/27/2014</a></td>
-                    <td><a href="https://github.com/Utah-Node-Ninjas/Passenger-27Aug2014">Utah-Node-Ninjas/Passenger-27Aug2014</a></td>
-                  </tr>
-
-
-                  <tr>
-                    <th colspan="4">
-                      <h4>Build Tools</h4>
-                    </th>
-                  </tr>
-                  <tr>
-                    <td>Grunt</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr class="past">
-                    <td>Gulp</td>
-                    <td>Trent Oswald</td>
-                    <td><a href="http://www.meetup.com/Node-Ninjas/events/201892102/">08/20/2014</a></td>
-                    <td><a href="https://github.com/Utah-Node-Ninjas/gulp-automation-20Aug2014">Utah-Node-Ninjas/gulp-automation-20Aug2014</a></td>
-                  </tr>
-                  <tr>
-                    <td>Yeoman</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Slush</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Broccoli</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Browserify</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-
-                  <tr>
-                    <th colspan="4">
-                      <h4>Testing</h4>
-                    </th>
-                  </tr>
-
-                  <tr>
-                    <th colspan="4">
-                      <h4>Database</h4>
-                    </th>
-                  </tr>
-                  <tr>
-                    <td>Overview and ORMs</td>
-                    <td>Trent Oswald</td>
-                    <td>TBD</td>
-                    <td>TBD<td>
-                  </tr>
-                  <tr>
-                    <td>Sequelize</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Mongoose</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Redis</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>CouchDB</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <th colspan="4">
-                      <h4>Templating</h4>
-                    </th>
-                  </tr>
-                  <tr>
-                    <td>ICanHaz.js</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Hogan.js</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Handlebars.js</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>mustache.js</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Transparency</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>doT.js</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Walrus</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Chibi.js</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>templayed.js</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>ECT</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Pithy.js</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>T.js</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Nunjucks</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Jade</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>Dust.js</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                  <tr>
-                    <td>EJS</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                    <td>TBD</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+                  <th colspan="4">
+                    <h4>Beginner Concepts</h4>
+                  </th>
+                </tr>
+                <tr>
+                  <td>Core Node.js</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>NPM and modules</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>I/O</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>Interfacing with other languages</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>Event Loop</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>Non-blocking code</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <th colspan="4">
+                  <h4>General Topics</h4>
+                </th>
+              </tr>
+              <tr class="past">
+                <td>PhantomJS => CasperJS => SpookyJS</td>
+                <td>Eric Rea and Dennis Steele</td>
+                <td><a href="http://www.meetup.com/Node-Ninjas/events/200378012/">08/13/2014</a></td>
+                <td>None</td>
+              </tr>
+              <tr>
+                <td>ES6</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td>Authentication</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td>Semantic Versioning</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td>RSS feeds</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td>Emailing</td>
+                <td>Joey Cozza</td>
+                <td>09/10/2014</td>
+                <td><a href="https://github.com/Utah-Node-Ninjas/emailing-10Sep2014">Utah-Node-Ninjas/emailing-10Sep2014</a></td>
+              </tr>
+              <tr>
+                <td>Logging/debugging</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td>SocketIO</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <th colspan="4">
+                  <h4>Frameworks</h4>
+                </th>
+              </tr>
+              <tr class="past">
+                <td>Express / Koa</td>
+                <td>Derek Argueta</td>
+                <td><a href="http://www.meetup.com/Node-Ninjas/events/198171172/">08/06/2014</a></td>
+                <td>None</td>
+              </tr>
+              <tr>
+                <td>Meteor</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td>Derby</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td>Hapi</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td>Sail</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <th colspan="4">
+                  <h4>Blogging</h4>
+                </th>
+              </tr>
+              <tr>
+                <td>Ghost</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td>PencilBlue</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td>Poet</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td>Hexo</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <th colspan="4">
+                  <h4>Deployment</h4>
+                </th>
+              </tr>
+              <tr class="past">
+                <td>Passenger</td>
+                <td>David Chubbs</td>
+                <td><a href="http://www.meetup.com/Node-Ninjas/events/201892112/">08/27/2014</a></td>
+                <td><a href="https://github.com/Utah-Node-Ninjas/Passenger-27Aug2014">Utah-Node-Ninjas/Passenger-27Aug2014</a></td>
+              </tr>
+              <tr>
+                <th colspan="4">
+                  <h4>Build Tools</h4>
+                </th>
+              </tr>
+              <tr>
+                <td>Grunt</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr class="past">
+                <td>Gulp</td>
+                <td>Trent Oswald</td>
+                <td><a href="http://www.meetup.com/Node-Ninjas/events/201892102/">08/20/2014</a></td>
+                <td><a href="https://github.com/Utah-Node-Ninjas/gulp-automation-20Aug2014">Utah-Node-Ninjas/gulp-automation-20Aug2014</a></td>
+              </tr>
+              <tr>
+                <td>Yeoman</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td>Slush</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td>Broccoli</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <td>Browserify</td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>TBD</td>
+              </tr>
+              <tr>
+                <th colspan="4">
+                  <h4>Testing</h4>
+                </th>
+              </tr>
+              <tr>
+                <th colspan="4">
+                  <h4>Database</h4>
+                </th>
+              </tr>
+              <tr>
+                <td>Overview and ORMs</td>
+                <td>Trent Oswald</td>
+                <td>TBD</td>
+                <td>TBD<td>
+                </tr>
+                <tr>
+                  <td>Sequelize</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>Mongoose</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>Redis</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>CouchDB</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <th colspan="4">
+                    <h4>Templating</h4>
+                  </th>
+                </tr>
+                <tr>
+                  <td>ICanHaz.js</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>Hogan.js</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>Handlebars.js</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>mustache.js</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>Transparency</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>doT.js</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>Walrus</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>Chibi.js</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>templayed.js</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>ECT</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>Pithy.js</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>T.js</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>Nunjucks</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>Jade</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>Dust.js</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+                <tr>
+                  <td>EJS</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                  <td>TBD</td>
+                </tr>
+              </tbody>
+            </table> -->
           </div>
-
         </div>
-        <!-- /.container -->
-
       </div>
-      <!-- /.content-section-b -->
-
-
-      <div id="map" class="content-section-a">
-        <div class="container">
-
-          <div class="row">
-            <div class="col-lg-12 col-sm-12">
-              <hr class="section-heading-spacer">
-              <div class="clearfix"></div>
-              <h2 class="section-heading">Location</h2>
-              <p class="lead">
-                We currently meet weekly at 379 North University Ave, located in the
-                heart of Provo, UT. Parking as accessible via 400 North, just to the
-                west of the building. We meet in suite 301, so head on up the
-                stairs when you get inside. Special thanks to
-                <a href="http://codingcamp.us/">Coding Campus</a> for allowing
-                us to meet in their space!
-              </p>
-            </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.content-section-b -->
+    <div id="map" class="content-section-a">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <div id="location-content"class="dynamic-content"></div>
+<!--             <h2 class="section-heading">Location</h2>
+            <p class="lead">
+            We currently meet weekly at 379 North University Ave, located in the
+            heart of Provo, UT. Parking as accessible via 400 North, just to the
+            west of the building. We meet in suite 301, so head on up the
+            stairs when you get inside. Special thanks to
+            <a href="http://codingcamp.us/">Coding Campus</a> for allowing
+            us to meet in their space!
+            </p> -->
           </div>
-
         </div>
-        <iframe
-          class="locationmap"
-          frameborder="0"
-          style="border:0"
-          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDB_MNUuqn1GVCCuOWBEtBRSOJiaHOVMm4&q=379+N+University+Ave,+Provo,+UT+84601">
-        </iframe>
-        <!-- /.container -->
-
       </div>
-      <!-- /.content-section-a -->
-
-      <div class="banner">
-
-        <div class="container">
-
-          <div class="row">
-            <div class="col-lg-12">
-              <h2>Connect with us:</h2>
-              <ul class="list-inline banner-social-buttons">
-                <li>
-                  <a href="http://www.meetup.com/Node-Ninjas/" class="btn btn-default btn-lg">
-                    <img src="img/meetup.png" />
-                    <span class="network-name">&nbsp;Meetup</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/Utah-Node-Ninjas" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                </li>
-              </ul>
-            </div>
+      <iframe
+      class="locationmap"
+      frameborder="0"
+      style="border:0"
+      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDB_MNUuqn1GVCCuOWBEtBRSOJiaHOVMm4&q=379+N+University+Ave,+Provo,+UT+84601">
+      </iframe>
+      <!-- /.container -->
+    </div>
+    <!-- /.content-section-a -->
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Connect with us:</h2>
+            <ul class="list-inline banner-social-buttons">
+              <li>
+                <a href="http://www.meetup.com/Node-Ninjas/" class="btn btn-default btn-lg">
+                  <img src="img/meetup.png" />
+                  <span class="network-name">&nbsp;Meetup</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Utah-Node-Ninjas" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+              </li>
+            </ul>
           </div>
-
         </div>
-        <!-- /.container -->
-
       </div>
-      <!-- /.banner -->
-
-      <!-- Footer -->
-      <footer>
-        <div class="container">
-          <div class="row">
-
-          </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.banner -->
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
         </div>
-      </footer>
-
-      <!-- jQuery Version 1.11.0 -->
-      <script src="js/jquery-1.11.0.js"></script>
-
-      <!-- Bootstrap Core JavaScript -->
-      <script src="js/bootstrap.min.js"></script>
-
-    </body>
-
-    </html>
+      </div>
+    </footer>
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/remarkable/1.3.0/remarkable.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/highlight.js/8.3.0/highlight.min.js"></script>
+    <script src="js/base64.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
